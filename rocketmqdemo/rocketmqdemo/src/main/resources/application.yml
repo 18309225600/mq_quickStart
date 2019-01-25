@@ -1,0 +1,16 @@
+
+server:
+  port: 8888
+
+apache:
+  rocketmq:
+    #topic
+    topic:  test1
+    # 消费者的组名
+    consumer:
+      consumerGroup: consumerGroup1
+    # 生产者的组名
+    producer:
+      producerGroup:  producerGroup1
+    # NameServer地址
+    namesrvAddr:  192.168.5.136:9876
